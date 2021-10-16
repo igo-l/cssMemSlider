@@ -5,8 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cssMemSlider</title>
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-
+    <div class="container">
+        <input checked id="slide-1" name="option" type="radio">
+        <input id="slide-2" name="option" type="radio">
+        <input id="slide-3" name="option" type="radio">
+        <input id="slide-4" name="option" type="radio">
+        <div class="slider-container">
+            <div class="slider-slides">
+                <img src="slide-1" alt="slide-1">
+                <img src="slide-2" alt="slide-1">
+                <img src="slide-3" alt="slide-1">
+                <img src="slide-4" alt="slide-1">
+            </div>
+        </div>
+        <div class="controls">
+            <span class="text1">text1</span>
+            <span class="text2">text2</span>
+            <span class="text3">text3</span>
+            <span class="text4">text4</span>
+            <ul class="bullets">
+                <li><label class="bullet1" for="slide-1"><span class="bullet-space"></span></label></li>
+                <li><label class="bullet2" for="slide-2"><span class="bullet-space"></span></label></li>
+                <li><label class="bullet3" for="slide-3"><span class="bullet-space"></span></label></li>
+                <li><label class="bullet4" for="slide-4"><span class="bullet-space"></span></label></li>
+                <li><label class="bullet5" for="slide-5"><span class="bullet-space"></span></label></li>
+              </ul>
+        </div>
+    </div>
 </body>
 </html>
